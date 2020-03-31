@@ -1,0 +1,99 @@
+/*-----------------------------------------------------------------------------------
+
+    
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+  
+    1. Home One
+        1.1 Header Area
+        1.2 Hero Area
+        1.3 Footer Area
+    2. Home Two
+    3. Home Three
+    4. Home Four
+    5. Skills Page
+    6. Project Page
+    7. Blog Page
+    8. Contact Page
+    9. Blog Details
+   10. Education Skill
+   11. Experience Skill
+   12. Color Switcher
+
+-----------------------------------------------------------------------------------*/
+
+/*============================================
+    1.1 Header Area
+*=============================================*/
+
+.container-fluid {
+	padding-right: 40px;
+	padding-left: 40px;
+	max-width: 1920px;
+}
+
+.header-area {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 998;
+	width: 100%;
+	padding: 30px 0px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.header-area.scrolled {
+	background-color: #000;
+}
+
+.logo a {
+	display: inline-block;
+}
+
+.main-menu {
+	text-align: center;
+}
+
+.main-menu nav > ul > li {
+	display: inline-block;
+	position: relative;
+	padding: 20px 0;
+}
+
+.main-menu nav ul li a {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	color: #b1b1b1;
+	letter-spacing: 0;
+	margin: 0 25px;
+	position: relative;
+}
+
+.main-menu nav ul li a:hover,
+.main-menu nav ul li.active a {
+	color: #fff;
+}
+
+.main-menu nav > ul > li > a:before {
+	content: '';
+	position: absolute;
+	left: -5%;
+	bottom: 0;
+	z-index: -1;
+	height: 6px;
+	background: #12db8a;
+	width: 110%;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.main-menu nav > ul > li > a:hover:before,
+.main-menu nav > ul > li.active > a:before {
+	opacity: 1;
+}
