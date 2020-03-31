@@ -304,7 +304,6 @@
 	-webkit-transform: translate(-50%, -50%)rotate(0deg);
 	transform: translate(-50%, -50%)rotate(0deg);
 }
-
 .offset-wrapper.show_hide .close-btn span {
 	-webkit-transform: translate(-50%, -50%)rotate(45deg);
 	transform: translate(-50%, -50%)rotate(45deg);
