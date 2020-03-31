@@ -97,3 +97,16 @@
 .main-menu nav > ul > li.active > a:before {
 	opacity: 1;
 }
+.humberger {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.humberger span {
+	display: block;
+	height: 4px;
+	width: 38px;
+	background: #fff;
+	margin: 6px 0px;
+	border-radius: 5px;
+}
