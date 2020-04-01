@@ -681,7 +681,7 @@ div#particles-js {
 *=============================================*/
 
 /*============================================
-    2. Home Two
+    2. Home 
 *=============================================*/
 
 .hero-two {
@@ -728,5 +728,45 @@ div#particles-js {
 }
 
 /*============================================
-    END Home Two
+    END Home 
 *=============================================*/
+/*============================================
+    7. Education Skill
+*=============================================*/
+
+.edu-item {
+	position: relative;
+	padding-bottom: 70px;
+	border-left: 2px solid #fff;
+	padding-left: 35px;
+}
+
+.edu-item:last-child {
+	padding-bottom: 0;
+}
+
+.edu-item:before {
+	content: '';
+	height: 25px;
+	width: 25px;
+	border: 3px solid #414141;
+	position: absolute;
+	left: -14px;
+	top: 0px;
+	z-index: 2;
+	border-radius: 50%;
+	background: #fff;
+}
+.edu-item:after {
+	content: '';
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	left: -15px;
+	top: -2px;
+	z-index: 1;
+	border-radius: 50%;
+	background: #414141;
+	-webkit-animation: scalingeffct 1.5s linear 0s infinite;
+	animation: scalingeffct 1.5s linear 0s infinite;
+}
