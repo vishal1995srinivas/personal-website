@@ -770,3 +770,26 @@ div#particles-js {
 	-webkit-animation: scalingeffct 1.5s linear 0s infinite;
 	animation: scalingeffct 1.5s linear 0s infinite;
 }
+
+.edu-item span {
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+	letter-spacing: 0;
+}
+
+.edu-item h2 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 0;
+	margin: 9px 0 16px;
+}
+
+.edu-item p {
+	font-size: 22px;
+	font-weight: 400;
+	color: #ffffff;
+	line-height: 30px;
+}
