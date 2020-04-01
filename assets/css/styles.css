@@ -869,3 +869,21 @@ div#particles-js {
 	min-height: calc(100vh - 70px);
 	padding-top: 141px;
 }
+.page-title {
+	position: fixed;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	height: 224px;
+	width: 950px;
+	top: 363px;
+	text-align: center;
+	left: -477px;
+}
+
+.page-title h2 {
+	font-size: 135px;
+	font-weight: 700;
+	color: #101010;
+	letter-spacing: 0;
+	line-height: 165px;
+}
