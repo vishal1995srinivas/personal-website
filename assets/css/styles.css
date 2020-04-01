@@ -612,6 +612,7 @@ ul.hr-social li a:hover {
 }
 
 .footer-area:before {
+	/*right bar*/
 	content: '';
 	position: absolute;
 	left: 0;
@@ -621,8 +622,8 @@ ul.hr-social li a:hover {
 	height: 20px;
 	width: 100%;
 }
-
 .footer-area:after {
+	/*left bar*/
 	content: '';
 	position: absolute;
 	left: 0;
