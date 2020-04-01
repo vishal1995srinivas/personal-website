@@ -1,0 +1,57 @@
+/* 
+--------------------------
+- 1.1 Default CSS
+--------------------------
+*/
+
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,500,600,600i,700,700i,900,900i');
+
+/* Your default CSS. */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:focus {
+	outline: 0;
+}
+
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	background: #fff;
+	font-weight: normal;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	color: #888;
+	line-height: 30px;
+	-webkit-font-smoothing: antialiased;
+	/* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+button,
+input,
+textarea {
+	letter-spacing: 1px;
+}
+
+/*custome css*/
