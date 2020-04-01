@@ -566,7 +566,7 @@ ul.hr-social li a:hover {
 	background: #12db8a;
 	letter-spacing: 0;
 	padding: 17px 49px;
-	border-radius: 0px 16px 0px 0px;
+	border-radius: 0px 16px 0px 0px; /*Button corner bend*/
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -592,7 +592,7 @@ ul.hr-social li a:hover {
 
 .hr-about-content a:hover:before,
 .download-cv a:hover:before {
-	opacity: 1;
+	opacity: 3;
 	-webkit-transform: scale(3);
 	transform: scale(3);
 }
