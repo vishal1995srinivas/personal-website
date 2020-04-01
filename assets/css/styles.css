@@ -11,17 +11,15 @@
         1.1 Header Area
         1.2 Hero Area
         1.3 Footer Area
-    2. Home Two
-    3. Home Three
-    4. Home Four
-    5. Skills Page
-    6. Project Page
-    7. Blog Page
-    8. Contact Page
-    9. Blog Details
-   10. Education Skill
-   11. Experience Skill
-   12. Color Switcher
+    
+    2. Skills Page
+    3. Project Page
+    4. Blog Page
+    5. Contact Page
+    6. Blog Details
+   7. Education Skill
+   8. Experience Skill
+   9. Color Switcher
 
 -----------------------------------------------------------------------------------*/
 
@@ -439,6 +437,170 @@
 /*============================================
     END Header Area
 *=============================================*/
+
+/*============================================
+    1.2 Hero Area
+*=============================================*/
+
+.hero-area {
+	min-height: calc(100vh - 70px);
+	position: relative;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: url(../images/icon/slider-bgshape-left.png) left center no-repeat,
+		url(../images/bg/unnamed.jpg) center/cover no-repeat;
+}
+
+.hero-content h3 {
+	font-weight: 900;
+	font-style: italic;
+	color: #ffffff;
+	font-size: 104px;
+	line-height: 104px;
+	margin-bottom: 17px;
+}
+
+.hero-content h2 {
+	font-weight: 900;
+	font-style: italic;
+	color: #ffffff;
+	font-size: 104px;
+	line-height: 104px;
+	margin-bottom: 30px;
+	letter-spacing: 0;
+}
+
+.hero-content h2 span {
+	color: #b1b1b1;
+	font-weight: 700;
+}
+
+.hero-content p {
+	font-size: 25px;
+	font-weight: 600;
+	color: #ffffff;
+	letter-spacing: 0;
+	line-height: 34px;
+}
+
+.h1-content h3 {
+	font-size: 62px;
+	line-height: 62px;
+}
+
+.h1-content h2 {
+	font-size: 80px;
+	line-height: 80px;
+}
+
+.h1-content p {
+	font-size: 20px;
+	width: 531px;
+	max-width: 100%;
+}
+
+ul.hr-social {
+	margin-top: 32px;
+}
+
+ul.hr-social li {
+	display: inline-block;
+}
+
+ul.hr-social li a {
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	color: #b1b1b1;
+	letter-spacing: 0;
+	margin-right: 40px;
+}
+
+ul.hr-social li a:hover {
+	color: #fff;
+}
+
+.hr-about-content {
+	padding: 75px 90px;
+	position: absolute;
+	right: 0;
+	bottom: -70px;
+	z-index: 5;
+	background: rgba(10, 10, 10, 0.6);
+	width: 640px;
+}
+
+.hr-about-content h2 {
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 66px;
+	margin-bottom: 23px;
+	font-style: italic;
+	letter-spacing: 0;
+}
+
+.hr-about-content p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #ffffff;
+	letter-spacing: 0;
+	margin-bottom: 11px;
+}
+
+.signature {
+	margin: 38px 0px 45px;
+}
+
+.hr-about-content a,
+.download-cv a {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background: #12db8a;
+	letter-spacing: 0;
+	padding: 17px 49px;
+	border-radius: 0px 16px 0px 0px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.hr-about-content a:before,
+.download-cv a:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	height: 200%;
+	width: 100%;
+	background: #07c478;
+	z-index: -1;
+	opacity: 0;
+	border-radius: 50%;
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.6s ease 0s;
+	transition: all 0.6s ease 0s;
+}
+
+.hr-about-content a:hover:before,
+.download-cv a:hover:before {
+	opacity: 1;
+	-webkit-transform: scale(3);
+	transform: scale(3);
+}
+
+/*============================================
+    END Hero Area
+*=============================================*/
+
 /*============================================
     1.3 Footer Area
 *=============================================*/
