@@ -840,3 +840,20 @@ div#particles-js {
 	color: #ffffff;
 	line-height: 30px;
 }
+.right-social {
+	position: fixed;
+	right: -573px;
+	top: 50%;
+	z-index: 1;
+	height: 50px;
+	width: 1200px;
+	-webkit-transform: rotate(-90deg)translateY(-50%);
+	transform: rotate(-90deg)translateY(-50%);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.right-social .hr-social {
+	margin: auto;
+}
