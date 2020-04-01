@@ -55,3 +55,36 @@ textarea {
 }
 
 /*custome css*/
+
+/*prealoder css*/
+#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	background-color: #000;
+}
+#preloader .loader {
+	margin: auto;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	animation: ldrrotating 1000ms linear 0s infinite;
+}
+@keyframes ldrrotating {
+	0% {
+		transform: rotate(0deg)scale(1);
+	}
+	50% {
+		transform: rotate(180deg)scale(1.1);
+	}
+	100% {
+		transform: rotate(360deg)scale(1);
+	}
+}
