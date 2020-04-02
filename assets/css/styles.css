@@ -1511,3 +1511,92 @@ h2.skill-title:after {
 /*============================================
     END Contact Area
 *=============================================*/
+
+/*============================================
+    6. Project Page
+*=============================================*/
+
+.project-area {
+	background-color: #000;
+	padding: 165px 0px 50px;
+	min-height: calc(100vh - 70px);
+}
+
+.project-menu {
+	margin-bottom: 35px;
+	display: block;
+}
+
+.project-menu button {
+	font-size: 22px;
+	font-weight: 700;
+	color: #ffffff;
+	background: transparent;
+	margin-right: 16px;
+	padding: 14px 27px;
+	display: inline-block;
+	border-radius: 5px;
+	letter-spacing: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-transform: capitalize;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.project-menu button.active,
+.project-menu button:hover {
+	background: #12db8a;
+}
+
+.project-items {
+	position: relative;
+	border: 1px solid #fff;
+	margin-bottom: 30px;
+}
+
+.project-items .p-info {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: calc(100% - 76px);
+	width: calc(100% - 76px);
+	background: rgba(18, 219, 138, 0.7);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	opacity: 0;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.project-items:hover .p-info {
+	opacity: 1;
+}
+
+.project-items .p-info a {
+	margin: auto;
+	height: 128px;
+	width: 128px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 122px;
+	font-size: 40px;
+	color: #fff;
+}
+
+.project-items .p-info a i {
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.project-items .p-info a:hover i,
+.project-items:hover .p-info a {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
