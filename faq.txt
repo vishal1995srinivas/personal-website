@@ -1,0 +1,27 @@
+Where are you from ?
+I'm from Bengaluru, Karnataka, India
+
+Is it okay with the location other than bengaluru ?
+I can move to any part of the world. No issues upon that.
+
+What are your expectations from the company?
+My expectations from the company is as follows : 
+1. Condusive environment to work with. Thats all I need to start my work
+
+What are you doing now ?
+I'm working on these projects : 
+1. skype chat like application using React, redux and websockets.
+2. Sports store application using MERN stack.
+3. I've also planned to learn figma and sketch.
+
+You can have a visit to my github here->github href here.
+
+Your hobbies ?
+Trekking is my passion. Writing is my obsession, Badminton is my first love. I enjoy organizing events.
+Gym is for my fitness.
+This is not to boost about myself, I'm very good at consoling people and cure anxiety and depression.
+
+
+
+
+
